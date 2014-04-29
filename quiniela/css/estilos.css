@@ -1,0 +1,135 @@
+@font-face{font-family:'icomoon';src:url("../fonts/icomoon.eot?-w9fm4n");src:url("../fonts/icomoon.eot?#iefix-w9fm4n") format('embedded-opentype'),url("../fonts/icomoon.woff?-w9fm4n") format('woff'),url("../fonts/icomoon.ttf?-w9fm4n") format('truetype'),url("../fonts/icomoon.svg?-w9fm4n#icomoon") format('svg');font-weight:normal;font-style:normal}
+[class^="icon-"],[class*=" icon-"]{font-family:'icomoon';speak:none;font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+.icon-envelope-o:before{content:"\f003"}
+.icon-plus-circle:before{content:"\f055"}
+.icon-twitter:before{content:"\f099"}
+.icon-facebook:before{content:"\f09a"}
+.icon-github:before{content:"\f09b"}
+.icon-google-plus:before{content:"\f0d5"}
+.icon-linkedin:before{content:"\f0e1"}
+.icon-angle-double-left:before{content:"\f100"}
+.icon-github-alt:before{content:"\f113"}
+.icon-chevron-circle-right:before{content:"\f138"}
+.icon-iphone:before{content:"\e601"}
+.icon-undo:before{content:"\e600"}
+.icon-newtab:before{content:"\e602"}
+.icon-share:before{content:"\e605"}
+.icon-github2:before{content:"\e603"}
+.icon-tux:before{content:"\e604"}
+body{font-size:16px;font-family:'Varela Round',sans-serif;background:#34495e}
+footer{display:none}
+header{border-bottom:1px solid #f0f0f0;text-align:center;padding:1em;background:#fff;}
+header h1{font-size:2.5em;font-family:'Trade Winds' cursive;margin:0 auto}
+header .logo img{width:70%;margin-top:3em}
+input{width:4em;height:1em;padding:1em;text-align:center}
+.menu{background:#fff;position:fixed;left:0;top:0%;width:100%;margin:0 auto;text-align:center;}
+.menu ul{list-style:none;text-align:left;position:relative;left:-10%;margin-top:1em;width:110%;}
+.menu ul li{display:inline-block;margin-right:.3em;text-align:center;}
+.menu ul li a{background:#ffc43a;padding:.5em;border-bottom:2px solid #818181;color:#000;}
+.menu ul li a span{display:none}
+.progress-results{width:100%;position:fixed;left:0;bottom:0;background:#fff;text-align:center;box-shadow:.3em .3em .3em .3em #333;padding:.5em;}
+.progress-results span{font-weight:bold}
+.progress-results .barra{width:70%;margin:0 auto}
+.groups .alert-table{background:#43ac6a;color:#fff;width:30%;position:absolute;right:5%;top:40%;}
+.groups .alert-table:after{content:"";border-left:10px solid transparent;border-top:7px solid #43ac6a;border-right:10px solid transparent;position:absolute;bottom:-.4em;right:10%}
+.groups .titlegroups{background:#f0f0f0;text-align:left;width:50%;position:relative;left:0;}
+.groups .titlegroups h4{padding:.1em}
+.groups .titlegroups:after{content:"";border-bottom:19px solid #f0f0f0;border-left:18px solid #f0f0f0;border-right:19px solid transparent;border-top:19px solid transparent;position:absolute;right:-2.3em;top:-.05em}
+.groups .results{background:#f0f0f0;padding:2em .5em;margin-top:3em;position:relative;}
+.groups .results .labelGroup{margin-bottom:1em;position:absolute;left:35%;top:-1em;}
+.groups .results .labelGroup span{padding:1em;font-weight:bold;color:#000;background:#ffc43a}
+.groups .results .match{text-align:left;font-size:.8em;}
+.groups .results .match label{width:20%}
+.groups .results .match .flagTeam{display:inline-block;}
+.groups .results .match .flagTeam img{width:1em}
+.groups .results .btnTable{position:absolute;left:85%;top:-1.5em;color:#000;padding:.5em;background:#ffc43a}
+.groups .results .positions{font-size:.8em;position:absolute;left:0;top:2.5em;background:#f0f0f0;display:none;}
+.groups .results .positions .flagTeam{display:inline-block;}
+.groups .results .positions .flagTeam img{width:1em}
+.groups .results .positions table{margin-top:2em}
+.secondPhase{margin-top:2em;position:relative;}
+.secondPhase .keys{margin-top:3em;}
+.secondPhase .keys .titlegroups{background:#f0f0f0;text-align:left;width:60%;position:relative;left:0;}
+.secondPhase .keys .titlegroups h4{padding:.1em}
+.secondPhase .keys .titlegroups:after{content:"";border-bottom:18px solid #f0f0f0;border-left:18px solid #f0f0f0;border-right:19px solid transparent;border-top:19px solid transparent;position:absolute;right:-2.3em;top:-.05em}
+.secondPhase .keys .titlegroup{background:#f0f0f0;text-align:left;width:60%;position:relative;left:0;}
+.secondPhase .keys .titlegroup h4{padding:.1em}
+.secondPhase .keys .titlegroup:after{content:"";border-bottom:19px solid #f0f0f0;border-left:18px solid #f0f0f0;border-right:19px solid transparent;border-top:19px solid transparent;position:absolute;right:-2.3em;top:-.05em}
+.secondPhase .keys .teams{font-size:.8em;position:relative;padding:2em 0;margin-top:4em;background:#f0f0f0;}
+.secondPhase .keys .teams .labelKey{position:absolute;left:40%;top:-1em;}
+.secondPhase .keys .teams .labelKey span{padding:1em;font-size:1em}
+.secondPhase .keys .teams label{width:20%}
+.secondPhase .keys .teams .flagTeam{display:inline-block;}
+.secondPhase .keys .teams .flagTeam img{width:1em}
+.secondPhase .keys .teams .penaltys{text-align:center;position:relative;left:-1em;top:2em;margin-bottom:1em;display:none;}
+.secondPhase .keys .teams .penaltys span{display:block;width:6em;font-size:1em;position:absolute;left:38%;top:-2em}
+.secondPhase .thirdTitle{margin-top:4em}
+.secondPhase .finalTitle{position:relative;}
+.secondPhase .finalTitle .imgFinal{position:absolute;top:.8em;margin:0 auto;right:60%;}
+.secondPhase .finalTitle .imgFinal img{width:4em}
+.secondPhase .keychamp{margin-bottom:4em;padding:.4em;background:#818181;position:relative;}
+.secondPhase .keychamp .champion{background:#f0f0f0;padding:1em;height:auto;}
+.secondPhase .keychamp .champion .flagTeam{display:inline-block}
+.secondPhase .keychamp .champion span{font-size:1.5em;font-weight:bold}
+.secondPhase .keychamp .sharee{position:absolute;top:10em;left:10%;background:#fff;width:80%;padding:.5em;margin-bottom:8em;text-align:center;}
+.secondPhase .keychamp .sharee:before{content:"";border-bottom:8px solid transparent;border-left:8px solid transparent;border-right:8px solid transparent;border-top:8px solid #fff;position:absolute;bottom:-1em;left:40%}
+.secondPhase .keychamp .sharee .social{position:absolute;bottom:-4em}
+@media screen and (min-width:360px){.menu ul{text-align:center}
+}@media screen and (min-width:480px){header .logo img{width:50%}
+.menu ul{left:-5%;}
+.menu ul li{margin-right:1em}
+.groups{position:relative;}
+.groups .alert-table{top:10em;right:10%}
+.groups .title{width:90%;margin:0 auto;margin-bottom:10em;margin-top:2em}
+.groups .results{width:90%;margin:0 auto;margin-top:2em;}
+.groups .results .labelGroup{left:43%}
+.groups .results .match{text-align:center;font-size:1em}
+.groups .results .positions{text-align:center;font-size:1em;left:10%;top:1em;width:80%}
+.secondPhase .secondTitle{width:90%;margin:0 auto;margin-top:2em}
+.secondPhase .keys .teams{width:90%;margin:0 auto;margin-top:2em;text-align:center;}
+.secondPhase .keys .teams .labelKey{left:45%}
+.secondPhase .keys .teams .penaltys{left:0;}
+.secondPhase .keys .teams .penaltys background red span{left:50%}
+.secondPhase .keychamp{width:90%;left:5%}
+}@media screen and (min-width:800px){.menu ul li a:hover{position:relative;top:-.2em}
+.menu ul li a span{display:inline-block}
+}@media screen and (min-width:1024px){header .logo img{width:25%}
+.menu .limenu{display:none}
+.groups .alert-table{display:none}
+.groups .title{width:60%}
+.groups .results{width:80%;}
+.groups .results .btnTable{display:none}
+.groups .results .match{text-align:left;}
+.groups .results .match label{width:10%}
+.groups .results .positions{display:block;width:50%;left:48%}
+.secondPhase{position:relative;margin-bottom:70em;}
+.secondPhase .secondTitle{display:none}
+.secondPhase .keys{width:25%;position:relative;}
+.secondPhase .keys .titlegroups{top:1.2em}
+.secondPhase .keys .teams{padding:0;}
+.secondPhase .keys .teams .labelKey{left:-25.5%;top:.8em}
+.secondPhase .keys .teams .labelKeyLarge{position:absolute;left:-29%}
+.secondPhase .keys .teams .labelA{width:40%;position:relative;left:1em}
+.secondPhase .keys .teams .labelB{width:40%;position:relative;left:-2.6em;top:-.1em}
+.secondPhase .keys .teams .flagTeam{position:absolute;left:.5em;top:.5em}
+.secondPhase .keys .teams .flagTeamB{top:3.5em}
+.secondPhase .keys .teams .inputTeamA{position:relative;left:1.6em}
+.secondPhase .keys .teams .inputTeamB{position:relative;top:3em;left:-2.6em}
+.secondPhase .keys .teams .vs{display:none}
+.secondPhase .keys .teams .penaltys{display:none;position:absolute;left:80%;top:.2em;}
+.secondPhase .keys .teams .penaltys span{position:absolute;left:-1em}
+.secondPhase .keys .teams .penaltys input{margin-bottom:.2em}
+.secondPhase .octavos{position:absolute;left:5%}
+.secondPhase .cuartos{position:absolute;left:35%;top:5em;}
+.secondPhase .cuartos .key10{top:8em}
+.secondPhase .cuartos .key11{top:17em}
+.secondPhase .cuartos .key12{top:25em}
+.secondPhase .semis{position:absolute;left:60%;top:12em;}
+.secondPhase .semis .key14{top:10em}
+.secondPhase .final{position:absolute;left:75%;top:20em}
+.secondPhase .keychamp{float:right;position:absolute;top:60em;left:30%;width:40%;}
+.secondPhase .keychamp .titlefinal{position:relative;top:0}
+.progress-results{width:50%;margin:0 auto;left:25%;text-align:center}
+footer{display:block;width:20%;position:absolute;bottom:-251em;right:0;padding:1.73em;margin-right:1em;opacity:.5;}
+footer .cop{color:#34495e}
+}

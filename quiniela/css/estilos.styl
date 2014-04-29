@@ -1,0 +1,533 @@
+@import "fonts.styl"
+gris_mas_claro = #F0F0F0
+gris_oscuro = #333333
+gris_claro = #818181
+color_warning = #f1c40f
+color_alert_table = #34495e
+verde_success = #43ac6a
+color_warning_dos = #ffc43a
+body
+	font-size 16px
+	font-family: 'Varela Round', sans-serif
+	background color_alert_table
+footer
+	display none
+header
+	border-bottom 1px solid gris_mas_claro
+	text-align center
+	padding 1em
+	background white
+	
+	h1
+		font-size 2.5em
+		font-family 'Trade Winds' cursive
+		margin 0 auto
+	.logo
+		img
+			width 70%
+			margin-top 3em
+
+input
+	width 4em
+	height 1em
+	padding 1em
+	text-align center
+.menu
+	background white
+	position fixed
+	left 0
+	top 0%
+	width 100%
+	margin 0 auto
+	text-align center
+
+	ul
+		list-style none
+		text-align left
+		position relative
+		left -10%
+		margin-top 1em
+		width 110%
+
+		li
+			display inline-block
+			margin-right 0.3em
+			text-align center	
+			a
+				background color_warning_dos
+				padding 0.5em
+				border-bottom 2px solid gris_claro
+				color black
+				span
+					display none
+
+.progress-results
+	width 100%
+	position fixed
+	left 0
+	bottom 0
+	background white
+	text-align center
+	box-shadow 0.3em 0.3em 0.3em 0.3em gris_oscuro
+	padding 0.5em
+	span
+		font-weight bold
+	.barra
+		width 70%
+		margin 0 auto
+
+.groups
+	.alert-table
+		background verde_success
+		color white
+		width 30%
+		position absolute
+		right 5%
+		top 40%
+		
+		
+		&:after
+			content ""
+			border-left 10px solid transparent
+			border-top 7px solid verde_success
+			border-right 10px solid transparent
+			position absolute
+			bottom -0.4em
+			right 10%
+
+	.titlegroups
+		background gris_mas_claro
+		text-align left
+		width 50%
+		position relative
+		left 0
+		h4
+			padding 0.1em
+		&:after
+			content ""
+			border-bottom 19px solid gris_mas_claro
+			border-left 18px solid gris_mas_claro
+			border-right 19px solid transparent
+			border-top 19px solid transparent
+			position absolute
+			right -2.3em
+			top -0.05em
+
+		
+	
+	.results
+		background gris_mas_claro
+		padding 2em 0.5em
+		margin-top 3em
+		position relative
+		.labelGroup
+			margin-bottom 1em
+			position absolute
+			left 35%
+			top -1em
+			span
+				padding 1em
+				font-weight bold
+				color black
+				background color_warning_dos
+
+		.match
+			text-align left
+			font-size 0.8em
+			
+			label
+				width 20%
+			.flagTeam
+				display inline-block
+				img
+					width 1em
+		.btnTable
+			position absolute
+			left 85%
+			top -1.5em
+			color black	
+			padding 0.5em
+			background color_warning_dos 
+
+		.positions
+			font-size 0.8em
+			position absolute
+			left 0
+			top 2.5em
+			background gris_mas_claro
+			display none
+			.flagTeam
+				display inline-block
+				img
+					width 1em
+			table
+				margin-top 2em
+
+
+.secondPhase
+	margin-top 2em
+	position relative
+	
+			
+	.keys		
+		margin-top 3em
+		.titlegroups
+			background gris_mas_claro
+			text-align left
+			width 60%
+			position relative
+			left 0
+			h4
+				padding 0.1em
+			&:after
+				content ""
+				border-bottom 18px solid gris_mas_claro
+				border-left 18px solid gris_mas_claro
+				border-right 19px solid transparent
+				border-top 19px solid transparent
+				position absolute
+				right -2.3em
+				top -0.05em
+		.titlegroup 
+			background gris_mas_claro
+			text-align left
+			width 60%
+			position relative
+			left 0
+			h4
+				padding 0.1em
+			&:after
+				content ""
+				border-bottom 19px solid gris_mas_claro
+				border-left 18px solid gris_mas_claro
+				border-right 19px solid transparent
+				border-top 19px solid transparent
+				position absolute
+				right -2.3em
+				top -0.05em
+		.teams
+			font-size 0.8em
+			position relative
+			padding 2em 0em
+			margin-top 4em
+			background gris_mas_claro
+
+			.labelKey
+				position absolute
+				left 40%
+				top -1em
+				span
+					padding 1em
+					font-size 1em
+					
+					
+			label
+				width 20%
+			.flagTeam
+				display inline-block
+				img
+					width 1em
+			.penaltys
+				text-align center
+				position relative
+				left -1em
+				top 2em
+				margin-bottom 1em
+				display none
+				span
+					display block
+					width 6em
+					font-size 1em
+					position absolute
+					left 38%
+					top -2em
+		
+			
+	.thirdTitle
+		margin-top 4em
+
+	.finalTitle
+		position relative
+		.imgFinal
+			position absolute
+			top 0.8em
+			margin 0 auto
+			right 60%
+			img 
+				width 4em
+
+	.keychamp
+		margin-bottom 4em
+		padding 0.4em
+		background gris_claro
+		position relative
+		
+
+		.champion
+			background gris_mas_claro
+			padding 1em
+			height auto
+			.flagTeam
+				display inline-block
+			span
+				font-size 1.5em
+				font-weight bold
+		.sharee
+			position absolute
+			top 10em
+			left 10%
+			background rgba(255, 255, 255, 1);
+			width 80%
+			padding 0.5em
+			margin-bottom 8em
+			text-align center
+			&:before
+				content ""
+				border-bottom 8px solid transparent
+				border-left 8px solid transparent
+				border-right 8px solid transparent
+				border-top 8px solid rgba(255, 255, 255, 1)
+				position absolute
+				bottom -1em
+				left 40%
+			.social
+				position absolute
+				bottom -4em
+			
+
+
+@media screen and (min-width:360px)
+
+	.menu
+		
+		ul
+			text-align center
+
+
+@media screen and (min-width:480px)
+			
+		header
+			.logo
+				img
+					width 50%
+		.menu
+			ul
+				left -5%
+				li
+					margin-right 1em
+
+		.groups
+			position relative
+			.alert-table
+				top 10em
+				right 10%
+			.title
+				width 90%
+				margin 0 auto
+				margin-bottom 10em
+				margin-top 2em
+			.results
+				width 90%
+				margin 0 auto
+				margin-top 2em 
+
+
+
+				.labelGroup
+					left 43%
+				.match
+					text-align center
+					font-size 1em
+				.positions
+					text-align center
+					font-size 1em
+					left 10%
+					top 1em
+					width 80%
+		
+		.secondPhase
+			.secondTitle
+				width 90%
+				margin 0 auto
+				margin-top 2em
+
+			.keys
+				.teams
+					width 90%
+					margin 0 auto
+					margin-top 2em
+					text-align center
+					.labelKey
+						left 45%
+					.penaltys
+						left 0
+						background red
+							span
+								left 50%	
+			.keychamp
+				width 90%
+				left 5%
+
+@media screen and (min-width:800px)
+
+	.menu
+		
+		ul
+			li
+				a
+					&:hover
+						position relative
+						top -0.2em
+					
+					span
+						display inline-block
+@media screen and (min-width:1024px)
+	
+		header
+			.logo
+				img
+					width 25%
+
+
+		.menu
+			.limenu
+				display none
+		.groups
+			
+			.alert-table
+				display none
+			.title
+				width 60%
+
+
+			.results
+				width 80%
+				
+				.btnTable
+					display none
+				.match
+					text-align left
+					
+					label
+						width 10%
+				.positions
+					display block
+					width 50%
+					left 48%
+		.secondPhase
+			position relative
+			margin-bottom 70em
+			.secondTitle
+				display none
+			.keys
+				width 25%
+				position relative
+				.titlegroups
+					top 1.2em
+					
+				.teams
+					padding 0em
+					.labelKey
+						left -25.5%
+						top 0.8em
+
+					.labelKeyLarge
+						position absolute
+						left -29%
+					.labelA
+						width 40%
+						position relative
+						left 1em
+					.labelB
+						width 40%
+						position relative
+						left -2.6em
+						top -0.1em
+					.flagTeam
+						position absolute
+						left 0.5em
+						top 0.5em
+					.flagTeamB
+						top 3.5em
+
+					.inputTeamA
+						position relative
+						left 1.6em	
+					.inputTeamB
+						position relative
+						top 3em
+						left -2.6em
+						
+					.vs
+						display none
+					.penaltys
+						display none
+						position absolute
+						left 80%
+						top 0.2em
+						span
+							position absolute
+							left -1em
+						input
+							margin-bottom 0.2em
+						
+
+					
+
+			.octavos
+				position absolute
+				left 5%
+				
+			.cuartos
+				position absolute
+				left 35%
+				top 5em
+				.key10
+					top 8em
+				.key11
+					top 17em
+				.key12
+					top 25em
+
+				
+			.semis
+				position absolute
+				left 60%
+				top 12em
+				.key14
+					top 10em
+			.final
+				position absolute
+				left 75%
+				top 20em
+				
+			.keychamp
+				float right
+				position absolute
+				top 60em
+				left 30%
+				width 40%
+				.titlefinal
+					position relative
+					top 0
+				
+				
+
+		.progress-results
+			width 50%
+			margin 0 auto
+			left 25%
+			text-align center
+		footer
+			display block
+			width 20%
+			position absolute
+			bottom -251em
+			right 0
+			padding 1.73em
+			margin-right 1em
+			opacity 0.5
+			.cop
+				color color_alert_table
+			
+			
